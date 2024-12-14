@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Section</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #fff; /* White background */
+            color: #333; /* Standard text color */
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .col {
+            flex-basis: 48%;
+            margin-bottom: 20px;
+        }
+
+        /* Contact Form Styles */
+        .messageForm {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .messageForm input, .messageForm textarea {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .messageForm textarea {
+            resize: none;
+            height: 150px;
+        }
+
+        .messageForm button {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: dodgerblue;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .messageForm button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Back to Home Button */
+        .back-home {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .back-home a {
+            display: inline-block;
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: dodgerblue;
+            color: #fff;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+
+        .back-home a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <main class="row">
+            <!-- Left Section -->
+            <section class="col">
+                <h2>Get In Touch</h2>
+                <p>At Exclusive, we bring you the best of both worlds: premium clothing and the latest in gaming. Our mission is to deliver quality, style, and entertainment to our customers, ensuring an unmatched shopping experience.</p>
+                <div>
+                    <div>
+                        <i class="fa-solid fa-phone"></i> +233 50 274 8553
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-envelope"></i> gleefulguru202@gmail.com
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-location-dot"></i> Community 1, Tema Road, Ghana
+                    </div>
+                </div>
+            </section>
+
+            <!-- Right Section -->
+            <section class="col">
+                <form class="messageForm">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <input type="text" placeholder="Subject" required>
+                    <textarea placeholder="Say Something" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+
+                <!-- Back to Home Button -->
+                <div class="back-home">
+                    <a href="index.html">Back to Home</a>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>

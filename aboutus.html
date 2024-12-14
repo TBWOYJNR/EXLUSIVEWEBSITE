@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Exclusive</title>
+    <style>
+        /* General body styling */
+        body {
+            font-family: Arial, sans-serif; /* Use a clean, readable font */
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9; /* Light background for good contrast */
+            color: #333; /* Standard text color */
+        }
+
+        /* Header section styling */
+        header {
+            background-color: #1a1a2e; /* Dark background for header */
+            color: #fff; /* White text for contrast */
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em; /* Large, prominent title */
+        }
+
+        /* Main content container */
+        main {
+            max-width: 1200px; /* Centered content with a max width */
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        /* About section styling */
+        .about-section {
+            text-align: center;
+            margin-bottom: 40px; /* Space below the section */
+        }
+
+        .about-section h2 {
+            font-size: 2em; /* Larger heading size */
+            margin-bottom: 10px; /* Space below the heading */
+        }
+
+        .about-section p {
+            font-size: 1.2em; /* Slightly larger font for readability */
+            line-height: 1.6; /* Comfortable line spacing */
+        }
+
+        /* Categories section with flexible layout */
+        .categories {
+            display: flex;
+            justify-content: space-around; /* Space between items */
+            flex-wrap: wrap; /* Wrap items to the next line if needed */
+        }
+
+        /* Individual category card styling */
+        .category {
+            background-color: #fff; /* White card background */
+            border: 1px solid #ddd; /* Subtle border */
+            border-radius: 8px; /* Rounded corners */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+            text-align: center; /* Centered text and content */
+            padding: 20px;
+            margin: 10px; /* Space around cards */
+            flex: 1 1 calc(30% - 40px); /* Flexible sizing with space for margins */
+            box-sizing: border-box; /* Include padding and border in width/height */
+            transition: transform 0.3s; /* Smooth hover effect */
+        }
+
+        .category:hover {
+            transform: scale(1.05); /* Slightly enlarge card on hover */
+        }
+
+        .category img {
+            max-width: 100%; /* Ensure images are responsive */
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 4px; /* Slightly rounded corners */
+            margin-bottom: 15px; /* Space below image */
+        }
+
+        .category h3 {
+            margin-bottom: 10px; /* Space below heading */
+            font-size: 1.5em; /* Larger heading size */
+            color: #1a1a2e; /* Dark color for emphasis */
+        }
+
+        /* Footer section styling */
+        footer {
+            text-align: center;
+            background-color: #1a1a2e; /* Match header background */
+            color: #fff; /* White text for contrast */
+            padding: 10px 0; /* Space around footer content */
+            margin-top: 20px; /* Space above footer */
+        }
+
+        footer p {
+            margin: 0; /* No extra margin for compactness */
+            font-size: 1em; /* Standard font size */
+        }
+    </style>
+</head>
+<body>
+    <!-- Header section with the website title -->
+    <header>
+        <h1>Welcome to Exclusive</h1>
+    </header>
+
+    <!-- Main content area -->
+    <main>
+        <!-- About section with company information -->
+        <div class="about-section">
+            <h2>About Us</h2>
+            <p>At Exclusive, we bring you the best of both worlds: premium clothing and the latest in gaming. Our mission is to deliver quality, style, and entertainment to our customers, ensuring an unmatched shopping experience.</p>
+        </div>
+
+        <!-- Categories section highlighting products -->
+        <div class="categories">
+            <!-- Clothing category card -->
+            <div class="category">
+                <img src="/image/gallery/pexels-ron-lach-8386654.jpg" alt="Clothing">
+                <h3>Clothing</h3>
+                <p>Discover our exclusive collection of stylish and comfortable apparel.</p>
+            </div>
+
+            <!-- Gaming category card -->
+            <div class="category">
+                <img src="/image/gallery/pexels-a-darmel-7862507.jpg" alt="Gaming">
+                <h3>Gaming</h3>
+                <p>Explore the latest games and accessories to level up your experience.</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer section with copyright information -->
+    <footer>
+        <p>&copy; 2024 Exclusive. All rights reserved.</p>
+    </footer>
+</body>
+</html>
